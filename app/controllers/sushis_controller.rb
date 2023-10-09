@@ -7,6 +7,5 @@ class SushisController < ApplicationController
 
   def set_sushi
     @sushi = Sushi.order("RANDOM()").first
-    binding.break
   end
 end
