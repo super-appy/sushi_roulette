@@ -7,5 +7,8 @@ class SushisController < ApplicationController
 
   def set_sushi
     @sushi = Sushi.order("RANDOM()").first
+    if @sushi.nil?
+      Rails.logger.error "No sushi records found in the database."
+    end
   end
 end
