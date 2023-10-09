@@ -7,17 +7,17 @@
       <br>
         <%= @sushi.comment%>
       </div>
+      <br><br>
+      <div>
+        <%= link_to sushi_path do %>
+          <%= image_tag 'mottotaberu.png' %>
+        <% end %>
+        <%= link_to "https://twitter.com/intent/tweet?text=#{@sushi.name} にしようかな！&url=#{request.url}" do %>
+          <%= image_tag 'sharesuru.png' %>
+        <% end %>
+      </div>
     <% else %>
-        <h2>寿司情報が見つかりません</h2>
+      <h2>寿司情報が見つかりません</h2>
     <% end %>
-    <br><br>
-    <div>
-      <%= link_to sushi_path do %>
-        <%= image_tag 'mottotaberu.png' %>
-      <% end %>
-      <%= link_to "https://twitter.com/intent/tweet?text=#{@sushi.name} にしようかな！&url=#{request.url}" do %>
-        <%= image_tag 'sharesuru.png' %>
-      <% end %>
-    </div>
   </div>
 </div>
