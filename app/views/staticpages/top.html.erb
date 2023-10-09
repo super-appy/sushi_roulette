@@ -2,12 +2,10 @@
   <div class = 'child'>
     <%= image_tag 'nigirizushi_moriawase', width: '200', height: '200' %>
     <br>
-    <h1>寿司、何にする？</h1>
+    <h1>寿司ルーレット</h1>
     <br>
     <div>
-      <%= link_to sushi_path do %>
-        <%= image_tag 'taberu' %>
-      <% end %>
+      <%= link_to '回してみる', sushi_path, class: "btn" %>
     </div>
   </div>
 </div>

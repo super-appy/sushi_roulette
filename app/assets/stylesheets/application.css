@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align:  center;
 }
 
 .child {
@@ -11,8 +12,21 @@
   height: 400px;
 }
 
-.p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.btn {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 120px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	border-radius: 100vh;
+	border-bottom: 7px solid #0686b2;
+	background: #27acd9;
+	color: #fff;
+}
+a.btn_06:hover {
+	margin-top: 6px;
+	border-bottom: 1px solid #0686b2;
+	color: #fff;
 }
