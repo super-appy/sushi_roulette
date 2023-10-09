@@ -1,7 +1,7 @@
 <div class = 'container'>
   <div class = 'child'>
     <h2><%= @sushi.name %></h2>
-      <%= image_tag @sushi.sushi_image, width: '200', height: '200'  %>
+      <%= image_tag "#{@sushi.sushi_image}.png", width: '200', height: '200'  %>
     <div>
     <br>
       <%= @sushi.comment%>
@@ -9,10 +9,10 @@
     <br><br>
     <div>
       <%= link_to sushi_path do %>
-        <%= image_tag 'mottotaberu' %>
+        <%= image_tag 'mottotaberu.png' %>
       <% end %>
       <%= link_to "https://twitter.com/intent/tweet?text=#{@sushi.name} にしようかな！&url=#{request.url}" do %>
-        <%= image_tag 'sharesuru' %>
+        <%= image_tag 'sharesuru.png' %>
       <% end %>
     </div>
   </div>
