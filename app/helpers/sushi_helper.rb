@@ -1,0 +1,2 @@
+module SushiHelper
+end
