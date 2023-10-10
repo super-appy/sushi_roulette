@@ -68,6 +68,7 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.5)
       public_suffix (>= 2.0.2, < 6.0)
+    bigdecimal (3.1.4)
     bindex (0.8.1)
     bootsnap (1.16.0)
       msgpack (~> 1.2)
@@ -180,6 +181,8 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
+    sequel (5.73.0)
+      bigdecimal
     sprockets (4.2.1)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
@@ -231,6 +234,7 @@ DEPENDENCIES
   puma (~> 5.0)
   rails (~> 7.0.4)
   selenium-webdriver
+  sequel
   sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails
