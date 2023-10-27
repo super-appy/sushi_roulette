@@ -1,24 +1,59 @@
-# README
+# サービス概要
+![sushi_icon](https://github.com/super-appy/sushi_roulette/assets/137354889/1f1dfc00-9976-4683-a54f-27cf9e75e3db)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### サービス名
 
-Things you may want to cover:
+寿司るーれっと
+**https://sushi-roulette.onrender.com/**
 
-* Ruby version
+### 概要
 
-* System dependencies
+ルーレットを回してどんなお寿司が出てくるかを楽しむアプリです。  
+お寿司以外のネタも取り揃えています。お楽しみに！！
 
-* Configuration
+# サービスを作成した背景
 
-* Database creation
+お寿司屋さんで何を食べようか迷っている全ての人を救うため
 
-* Database initialization
+# 使い方
 
-* How to run the test suite
+トップ画面の回してみるボタンでスタートしてお寿司が表示されます。  
+もっと食べるを押すと再度ルーレットが回せます。好きなお寿司があればシェアもできます！  
 
-* Services (job queues, cache servers, search engines, etc.)
+# メイン機能
+ボタンを押してスタート→🍣→おかわり or シェア  
 
-* Deployment instructions
+[![Image from Gyazo](https://i.gyazo.com/0f637550168b529faa3b25f29f987773.gif)](https://gyazo.com/0f637550168b529faa3b25f29f987773)
 
-* ...
+# 使用技術
+
+| カテゴリ | 技術 |
+| --- | --- |
+| フロントエンド | CSS |
+| バックエンド | Ruby 3.2.2 Rails 7.0.4 |
+| データベース | PostgreSQL |
+| 環境構築 | ローカル |
+| インフラ | render |
+
+
+# 選定理由
+簡単なアプリなので使用技術もシンプルです
+renderでデプロイするときにデフォルトのSQLiteでは上手くできず、PostgreSQLにしました
+
+# 工夫点
+
+### 1.工夫
+シンプルな機能で、老若男女だれもが楽しく遊べるようにしました
+
+### 2.工夫
+シェア機能で好きなお寿司や面白かったお寿司をTwitterで共有できるようにしました
+
+### 3.工夫
+レスポンシブ対応してみました
+
+
+# 今後の展望・追加機能について
+* ユーザーがお寿司を登録できる
+* 苦手なネタをルーレットに入れない
+* (回転寿司でルーレットを回すと想定して)その日に食べた皿の枚数をカウントする  
+などの機能があれば、より楽しめるようになるかと思いますので、やってみたいです。
