@@ -1,5 +1,5 @@
 # サービス概要
-![sushi_icon](https://github.com/super-appy/sushi_roulette/assets/137354889/1f1dfc00-9976-4683-a54f-27cf9e75e3db)
+[![Image from Gyazo](https://i.gyazo.com/4495feafff68b7ef7041395766ad5cd9.png)](https://gyazo.com/4495feafff68b7ef7041395766ad5cd9)
 
 ### サービス名
 
